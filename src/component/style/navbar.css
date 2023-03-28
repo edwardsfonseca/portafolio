@@ -1,3 +1,53 @@
-.navbar{
-    background: gray;
+.navbar-expand-lg{
+    background: rgba(255, 255, 255, 0.19);
+    height: 101px;
 }
+.nav-link{
+    FONT-SIZE: 21px;
+    margin: 5px 3px 5px 3px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+:root {
+    --main-color: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 34.06%, rgba(0, 0, 0, 0.105213) 60.1%, rgba(0, 0, 0, 0.0942249) 67.92%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(7, 118, 32, 0.61) 48.13%, rgba(7, 118, 32, 0) 56.46%);
+  }
+* {
+    box-sizing: border-box;
+  }
+.navbar-brand{
+    margin-left: 51px;
+    color: var(--main-color);
+    font-size: 27px;
+    width: 500px;
+    margin: 23px;
+    border-right: 2px solid var(--main-color);
+   
+    overflow: hidden;
+    white-space:nowrap;
+    animation: control-width 2s steps(25) both ,blink 0.9s infinite;
+    
+
+}
+@keyframes control-width {
+
+    from {
+        width: 0;
+    }
+    to{
+        width:120px;
+    }
+    
+  }
+  @keyframes blink {
+  
+    from {
+  
+        border-right-color: var(--main-color);
+    }
+    to {
+  
+        border-right-color: transparent;
+  
+    }
+    
+  }

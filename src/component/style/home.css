@@ -1,3 +1,47 @@
 .home{
     background: black;
 }
+body{
+    background: #212224;
+}
+.img1{
+    width: 60%;
+    
+}
+.img2{
+    width: 40%;
+}
+.img3{
+    width: 41%;
+    height: 33rem;
+}
+.descrip{
+    padding-left: 57px;
+}
+.photo{
+    display: contents;
+}
+.container{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    height: 754px;
+    background: #ffffff82;
+    padding: 45px;
+    align-items: center;
+}
+.coco{
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    color: white;
+}
+h2{
+    font-size: medium;
+    color: rgb(3, 3, 3);
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+}
